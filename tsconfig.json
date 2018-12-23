@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "importHelpers": true,
-    "lib": ["esnext"],
     "module": "commonjs",
-    "noImplicitAny": true,
     "outDir": "./build",
     "resolveJsonModule": true,
-    "rootDirs": ["./src"],
+    "strict": true,
     "target": "esnext"
   },
   "include": ["./src/**/*"],
